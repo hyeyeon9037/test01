@@ -7,7 +7,7 @@ import lombok.Data;
 
 @Entity(name = "PATIENTTAB")
 @Data
-public class test_patientTab {
+public class patientTab {
 
     @Id
     @Column(name = "PID", nullable = false, length = 64)

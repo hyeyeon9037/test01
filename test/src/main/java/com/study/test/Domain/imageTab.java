@@ -11,8 +11,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity(name = "IMAGETAB")
-@IdClass(test_ImageTabId.class)
-public class test_imageTab {
+@IdClass(ImageTabId.class)
+public class imageTab {
 
     @Id
     @Column(name = "STUDYKEY", nullable = false)

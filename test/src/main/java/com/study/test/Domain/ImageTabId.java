@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class test_ImageTabId implements Serializable {
+public class ImageTabId implements Serializable {
 
     private static final long serialVersionUID = 1L;  // 직렬화 버전 ID 추가
 

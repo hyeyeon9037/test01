@@ -1,5 +1,11 @@
 package com.study.test.Repository;
 
-public interface imageTabRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
+import com.study.test.Domain.imageTab;
+
+@Repository
+public interface imageTabRepository extends JpaRepository<imageTab, Long>{
+	
 }

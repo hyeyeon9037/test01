@@ -10,7 +10,7 @@ import lombok.Data;
 
 @Data
 @Entity(name = "STUDYTAB")
-public class test_domain {
+public class domain {
 
     @Id
     @Column(name = "STUDYKEY", nullable = false)

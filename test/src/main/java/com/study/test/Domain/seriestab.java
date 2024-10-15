@@ -5,7 +5,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 @Entity(name = "SERIESTAB")
-public class test_seriestab {
+public class seriestab {
 
     @Id
     @Column(name = "STUDYKEY", nullable = false)
